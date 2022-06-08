@@ -1,9 +1,10 @@
 # Terraform Exercises
+This repository contains Terraform exercises. The idea is to use Terraform to generate infrastructure according to the exercise. When studying Terraform or cloud providers,
+it's easier to learn the concepts by doing exercises.
 
 ## VPC with public and private subnets
 
 This exercise is in the folder [vpc-public-private-load-balancer](./vpc-public-private-load-balancer/).
-
 
 ![Exercise diagram](./exercise-web-architecture.png)
 
