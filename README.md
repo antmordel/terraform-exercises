@@ -6,7 +6,7 @@ it's easier to learn the concepts by doing exercises.
 
 This exercise is in the folder [vpc-public-private-load-balancer](./vpc-public-private-load-balancer/).
 
-![Exercise diagram](./exercise-web-architecture.png)
+![Exercise diagram](./vpc-public-private-load-balancer/exercise-web-architecture.png)
 
 This exercise consists of creating a VPC with public and private subnets, and a load balancer in the public subnet.
 In the private subnets, create 2 EC2 instances, one in each AZ. The instances should run a small web server.
