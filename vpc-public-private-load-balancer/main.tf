@@ -161,10 +161,10 @@ resource "aws_lb_listener" "this" {
 # Attachments to instances
 # ----------------------------------------------------------------------------
 resource "aws_lb_target_group_attachment" "instance_attachments" {
-  for_each = toset(aws_instance.this.*.id)
+  count = 2
 
   target_group_arn = aws_lb_target_group.this.arn
-  target_id        = each.key
+  target_id        = aws_instance.this[count.index].id
   port             = local.port_instances
 }
 
