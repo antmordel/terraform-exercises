@@ -13,3 +13,5 @@ In the private subnets, create 2 EC2 instances, one in each AZ. The instances sh
 Accessing to the Load Balancer should be possible from the internet. And the requests should be forwarder to the servers.
 
 In this way we will have a fully isolated servers in a private subnet, and a load balancer in the public subnet.
+
+❤️
